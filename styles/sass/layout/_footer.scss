@@ -1,0 +1,42 @@
+footer
+{
+height: 220px;
+background-color: #353535;
+color: #fff;
+position: absolute;
+width: 100%;
+z-index: 2;
+}
+.footer_heading
+{
+    margin-left: 8%;
+	margin-top: 15px;
+}
+/* Footer */
+footer
+	{
+		display:flex;
+		justify-content: flex-start;
+	}
+footer h9
+	{
+		margin-top: 10px;
+	}
+footer ul
+	{
+		list-style-type: none;
+		padding:0px;
+	} 
+footer ul li
+	{
+		padding-top:10px;
+	}
+.fa-utensils
+{
+	padding-right: 17px;
+}
+.fa-hands-helping
+{
+	padding-right: 10px;
+}
+

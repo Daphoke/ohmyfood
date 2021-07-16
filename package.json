@@ -1,0 +1,12 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Création du site Ohmyfood! Paris",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./styles/sass/main.scss:./styles/css/style.css",
+    "prefix": "postcss ./styles/css/style.css --use autoprefixer -d ./styles/css/prefixed"
+  },
+  "author": "DaPhoke",
+  "license": "ISC"
+}

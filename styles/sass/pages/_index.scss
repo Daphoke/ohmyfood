@@ -1,0 +1,105 @@
+.loading_page
+{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    background-color: white;
+    animation: spinner_out 4.5s linear forwards;
+}
+.loading_text
+{
+    padding-top: 30px;
+}
+#full_serveur
+{
+    padding-top:5%;
+    height: 63%;
+    width: 63%;
+    animation: gradualOnset 3s ease-out backwards;
+}
+#accueil
+{
+    margin-top: 60px; 
+}
+
+.localisation
+{
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.fa-map-marker-alt 
+{
+margin-right: 20px;
+}
+
+.presentation
+{
+padding-top: 20px;
+height: 250px;
+background-color: #f2f2f2;
+text-align: center;
+}
+
+#fonctionnement
+{
+    margin-bottom: 60px;
+}
+
+.fonctionnement_title 
+    {
+        padding-left: 7%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    
+
+.hand_card_f
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+}
+#restaurants
+{
+    background-color: #f2f2f2;
+}
+
+.restaurants_title
+{
+    padding-left: 7%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.hand_card_r
+{
+    display: flex;
+    flex-direction:column;
+    max-width: 1440px;
+    margin: 0 auto auto auto;
+}
+.card_r
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.card_r:hover
+{
+    transform: scale(1.05);
+    transition: 200ms;
+} 
