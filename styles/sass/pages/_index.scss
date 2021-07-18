@@ -1,105 +1,98 @@
-.loading_page
-{
-    box-sizing: border-box;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-    background-color: white;
-    animation: spinner_out 4.5s linear forwards;
-}
-.loading_text
-{
-    padding-top: 30px;
-}
-#full_serveur
-{
-    padding-top:5%;
-    height: 63%;
-    width: 63%;
-    animation: gradualOnset 3s ease-out backwards;
-}
+// accueil
+h2
+	{
+		width: 86%;
+		margin: auto;
+	}
+h3
+	{
+		margin-bottom: 30px;
+		width: 90%;
+		margin: 30px auto;
+	}
 #accueil
-{
-    margin-top: 60px; 
-}
-
+    {
+        margin-top: 60px; 
+    }
 .localisation
-{
-    background-color: rgb(231, 231, 231);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-}
-
+    {
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(231, 231, 231);
+    }
 .fa-map-marker-alt 
-{
-margin-right: 20px;
-}
-
+    {
+        margin-right: 20px;
+    }
 .presentation
-{
-padding-top: 20px;
-height: 250px;
-background-color: #f2f2f2;
-text-align: center;
-}
+    {
+        padding-top: 20px;
+        height: 250px;
+        background-color: #f2f2f2;
+        text-align: center;
+    }
 
+// restaurants/fonctionnement
+h4    
+	{
+		margin: 0;
+	}
+    
+// fonctionnement
+h5
+	{
+		text-align: center;
+		width: 100%;
+		padding-right: 55px;
+	}
 #fonctionnement
-{
-    margin-bottom: 60px;
-}
-
+    {
+        margin-bottom: 60px;
+    }
 .fonctionnement_title 
     {
         padding-left: 7%;
         padding-top: 40px;
         padding-bottom: 20px;
     }
-    
-
 .hand_card_f
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 250px;
-}
-#restaurants
-{
-    background-color: #f2f2f2;
-}
+    {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+// restaurants
+#restaurants
+    {
+        background-color: #f2f2f2;
+    }
 .restaurants_title
-{
-    padding-left: 7%;
-    padding-top: 40px;
-    padding-bottom: 20px;
-}
+    {
+        padding-left: 7%;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
 .hand_card_r
-{
-    display: flex;
-    flex-direction:column;
-    max-width: 1440px;
-    margin: 0 auto auto auto;
-}
+    {
+        margin: 0 auto auto auto;
+        max-width: 1440px;
+        display: flex;
+        flex-direction:column;  
+    }
 .card_r
-{
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 30px;
-}
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
 .card_r:hover
-{
-    transform: scale(1.05);
-    transition: 200ms;
-} 
+    {
+        transform: scale(1.05);
+        transition: 200ms;
+    }

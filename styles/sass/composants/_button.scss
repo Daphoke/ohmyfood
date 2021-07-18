@@ -91,7 +91,7 @@ color: white;
 {
     position: absolute;
     right: 10px;
-    bottom: 28px;
+    bottom: 30px;
     width: 26px;
     height: 23px;
 }
@@ -99,7 +99,7 @@ color: white;
 {
     position: absolute;
     right: 10px;
-    bottom: 28px;
+    bottom: 30px;
     width: 26px;
     height: 23px;
     opacity: 0;
@@ -112,11 +112,13 @@ color: white;
 
 #menu .full
 {
-    position: absolute;
+    padding-right: 25px;
+    padding-bottom: 5px;
     width: 26px;
     height: 23px;
-    top: 23px;
     opacity: 0;
+    grid-column:2;
+    grid-row: 1;
     &:hover
     {
         opacity:1;
@@ -125,26 +127,28 @@ color: white;
 }
 #menu .empty
 {
-    position: absolute;
+    padding-right: 25px;
+    padding-bottom: 5px;
     width: 26px;
     height: 23px;
-    top: 23px;
+    grid-column:2;
+    grid-row: 1;
 }
 
-.card_r figcaption h7
+.card_r figcaption p:first-child
 {
     position: absolute;
     left: 10px;
-    bottom: 36px;
+    bottom: 20px;
 }
-.card_r figcaption h8
+.card_r figcaption p:nth-child(3)
 {
     position: absolute;
     left: 10px;
-    bottom: 14px;
+    bottom: 0px;
 }
 
-.btncommander
+.btn_commander
 {
     border-radius: 25px;
     padding: 15px 40px;

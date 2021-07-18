@@ -1,26 +1,30 @@
 footer
-{
-height: 220px;
-background-color: #353535;
-color: #fff;
-position: absolute;
-width: 100%;
-z-index: 2;
-}
-.footer_heading
-{
-    margin-left: 8%;
-	margin-top: 15px;
-}
-/* Footer */
-footer
 	{
 		display:flex;
 		justify-content: flex-start;
+		width: 100%;
+		height: 250px;
+		background-color: #353535;
+		color: #fff;
+		position: absolute;
+		z-index: 2;
 	}
-footer h9
+.footer_heading
 	{
-		margin-top: 10px;
+    	margin-left: 8%;
+		margin-top: 15px;
+	}
+.fa-utensils
+	{
+		padding-right: 17px;
+	}
+.fa-hands-helping
+	{
+		padding-right: 10px;
+	}
+.footer_heading:first-child
+	{
+		margin-top: 0;
 	}
 footer ul
 	{
@@ -31,12 +35,8 @@ footer ul li
 	{
 		padding-top:10px;
 	}
-.fa-utensils
-{
-	padding-right: 17px;
-}
-.fa-hands-helping
-{
-	padding-right: 10px;
-}
-
+footer ul li p
+	{
+		margin: 0;
+		display: inline;
+	}
