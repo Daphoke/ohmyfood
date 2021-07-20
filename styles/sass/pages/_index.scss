@@ -1,19 +1,14 @@
 // accueil
 h2
 	{
-		width: 86%;
 		margin: auto;
+        width: 86%;
 	}
 h3
 	{
-		margin-bottom: 30px;
-		width: 90%;
 		margin: 30px auto;
+		width: 90%;
 	}
-#accueil
-    {
-        margin-top: 60px; 
-    }
 .localisation
     {
         height: 60px;
@@ -90,9 +85,10 @@ h5
         margin-right: auto;
         margin-top: 0;
         margin-bottom: 30px;
+    &:hover
+        {
+            transform: scale(1.05);
+            transition: 200ms;
+        }   
     }
-.card_r:hover
-    {
-        transform: scale(1.05);
-        transition: 200ms;
-    }
+        

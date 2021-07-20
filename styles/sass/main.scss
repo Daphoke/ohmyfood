@@ -14,11 +14,12 @@
 @import "./composants/_button";
 
 // import layout
-@import "./layout/_header";
-@import "./layout/_footer";
+@import "./layouts/_header";
+@import "./layouts/_footer";
+@import "./layouts/_container";
 
 // import pages
-@import "./pages/index";
-@import "./pages/menu";
+@import "./pages/_index";
+@import "./pages/_menu";
 
 // import themes

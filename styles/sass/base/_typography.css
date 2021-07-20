@@ -21,8 +21,7 @@ h1
     {
         font-family: 'Shrikhand', cursive;
         font-size: 18px;
-        color: white;
-        
+        color: white;  
     }
 .fa-utensils
     {
@@ -146,6 +145,6 @@ h5
     }
 .btn_commander
     {
-        font-size: 14px;
-        font-weight: 300;
+        font-size: 15px;
+        font-weight: 500;
     }
